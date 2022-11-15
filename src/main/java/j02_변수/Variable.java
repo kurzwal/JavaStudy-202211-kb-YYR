@@ -24,7 +24,7 @@ public class Variable {
 		
 		System.out.println("<<<< 형변환 >>>>");
 		
-		//업캐스팅 : 문자 -> 정수 -> 실수
+		//업캐스팅 : 문자 -> 정수 -> 실수 (생략 가능한 부분은 회색으로 처리)
 		
 		char c1 = 'a';
 		System.out.println(c1);
@@ -34,7 +34,9 @@ public class Variable {
 		double d1 = (double) c1;
 		System.out.println("d1");
 		
-		//
+		//다운캐스팅 : 실수 -> 정수 -> 문자
+		
+		char c2 = 'a';
 		
 		
 		
